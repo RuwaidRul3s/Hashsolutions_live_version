@@ -1,0 +1,24 @@
+.our-services-main-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+.section-title,
+.section-sub-title {
+
+    text-align: center;
+}
+
+.our-services-container {
+    grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
+
+
+}
+
+.our-services-container button {
+    height: 50px;
+
+}

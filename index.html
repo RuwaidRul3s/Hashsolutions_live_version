@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/3a9cffada6.js" crossorigin="anonymous"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <link rel="stylesheet" href="css/ModalWindow.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/our-services mobile.css" media="screen and (max-width:720px)">
+
+  <title>Hash-Solutions</title>
+</head>
+
+<body>
+  <!--Building the Navigation Menu-->
+  <header class="header-area">
+    <div id="Welecoming-bannar">
+
+      <p class="header-welecoming-text">We can help your business grow for $99</p>
+
+      <div class=" countdow-timer-wrapper">
+        <div class="time">
+          <p id="days"></p>
+          <p>Days</p>
+        </div>
+        <div class="time">
+          <p id="counterdown-hours"></p>
+          <p>Hours</p>
+        </div>
+        <div class="time">
+          <p id="counterdown-minutes"></p>
+          <p>Minutes</p>
+
+        </div>
+      </div>
+
+      <div class="buttons-wrapper">
+        <div class="button-wrapper">
+          <span> <i class="fa-solid fa-headset"></i></span>
+          <a href="#" id="livechat_btn" class="btn btn__livechatbtn">
+            live Chat</a>
+        </div>
+        <a href="#" id="Ordernow-btn" class="btn btn__orderNow">Order Now </a>
+      </div>
+
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="site-logo">
+        <img src="assets/imgs/LOGO File/full logo/Type 1/Asset 13.png" />
+      </div>
+      <div class="site-nav-menu">
+        <label for="navi-toggle" class="site-nav-menu-button">
+          <span class="site-nav-menu-icon"></span>
+        </label>
+        <input type="checkbox" class="site-nav-menu-checkbox" id="navi-toggle" />
+        <ul class="primary-menu">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+
+
+
+  <div class="main-container">
+    <section class="s1">
+      <div class="content">
+        <h2>Let’s grow your business together</h2>
+        <h2 class="typewritter">with IT solutions</h2>
+        <p>
+          Hash Solutions delivers unique IT resolutions to make your business stand out and grow. Our services are
+          proven to increase traffic to our clients businesses through website development, mobile applications,
+          e-marketing and more. Satisfaction guaranteed or your money back!
+        </p>
+        <div class="buttons">
+          <a class="button" href="#">Order now </a>
+          <a class="button" href="#">About Us</a>
+        </div>
+      </div>
+      <img src="assets/imgs/My project.png" />
+    </section>
+
+    <section class="section-WAVE">
+      <img src="/assets/imgs/wave.svg" />
+    </section>
+
+    <!--Live chat message div  -->
+    <input type="checkbox" id="toggleLive_chat">
+    <label for="toggleLive_chat" id="toggleLive_chat_label">
+      <i class="fas fa-times fa-2x"></i>
+    </label>
+    <div class="chatWrapper">
+      <div class="head-text">let's chat -online
+      </div>
+      <div class="chat-box">
+        <div class="desc-text">Please fill out the form below to start chatting with the next available agent.
+        </div>
+
+        <form action="#">
+          <div class="field">
+            <input type="text" placeholder="Your Name" required>
+          </div>
+          <div class="field">
+            <input type="text" placeholder="Email Address" required>
+          </div>
+          <div class="field textarea">
+            <textarea cols="30" rows="10" placeholder="Explain your queries" required></textarea>
+          </div>
+          <div class="field">
+            <button>Start Chat</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <section class="our-services">
+      <div class="section-intro">
+
+        <p class="section-title">IT Solutions</p>
+      </div>
+
+      <div class="our-services-main-container">
+        <div class="our-services-card">
+          <div class="logo">
+            <img src="assets/imgs/marketing logo.jpg">
+          </div>
+          <div class="title">
+            <h2>Marketing</h2>
+          </div>
+          <div class="content">
+            <p>We use strategic marketing tactics that have been proven to work</p>
+          </div>
+        </div>
+        <div class="our-services-card">
+          <div class="logo">
+            <img src="assets/imgs/development logo.jpg">
+          </div>
+          <div class="title">
+            <h2>Development</h2>
+          </div>
+          <div class="content">
+            <p>Custom programming for most complex functions you can think</p>
+          </div>
+        </div>
+        <div class="our-services-card">
+          <div class="logo">
+            <img src="assets/imgs/development logo.jpg">
+          </div>
+          <div class="title">
+            <h2>Web Design</h2>
+          </div>
+          <div class="content">
+            <p>Process for creating a website that focuses on factors like layout and UI</p>
+          </div>
+        </div>
+        <div class="our-services-card">
+          <div class="logo">
+            <img src="assets/imgs/SEO.jpg">
+          </div>
+          <div class="title">
+            <h2>SEO Optimiazation</h2>
+          </div>
+          <div class="content">
+            <p>Optimizing our web designs to rank on the first page of google is our specialty</p>
+          </div>
+        </div>
+        <div class="our-services-card">
+          <div class="logo">
+            <img src="assets/imgs/marketing logo.jpg">
+          </div>
+          <div class="title">
+            <h2>Ecommerce</h2>
+          </div>
+          <div class="content">
+            <p>We build online store using a flexible,modular platform that allows</p>
+          </div>
+        </div>
+        <div class="our-services-card">
+          <div class="logo">
+            <img src="assets/imgs/development logo.jpg">
+          </div>
+          <div class="title">
+            <h2>Branding</h2>
+          </div>
+          <div class="content">
+            <p>Process of creating an identity for a company .consists of company's logo and visual design</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="StatisticsInfo">
+      <div class="section-intro">
+        <p class="section-title">Our Awesome stats</p>
+      </div>
+      <div class="StatisticsInfo-container">
+        <div class="content">
+          <div class="stats-card">
+            <div class="logo">
+              <i class="fa-sharp fa-solid fa-chart-line fa-3x"></i>
+            </div>
+            <div class="content">
+              <p class="bold-font">Revenue</p>
+              <p>$1M+ revune for our clients</p>
+            </div>
+          </div>
+          <div class="stats-card">
+            <div class="logo">
+              <i class="fa-solid fa-user-tie fa-3x"></i>
+            </div>
+            <div class="content">
+              <p class="bold-font">Satisfaction</p>
+              <p>we promise your money back if you’re not satisfied with our service!</p>
+            </div>
+          </div>
+          <div class="stats-card">
+            <div class="logo">
+              <i class="fa-regular fa-hourglass fa-3x"></i>
+            </div>
+            <div class="content">
+              <p class="bold-font">Fast delivery</p>
+              <p class="description">we provide our clients with a short time frame to deliver their solutions in the
+                best manner possible.
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <div class="div-image">
+          <img src="assets/imgs/Startup managers presenting and analyzing sales growth chart.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <section class="our-team-section">
+      <div class="section-intro">
+        <p class="section-sub-title">//Our Team</p>
+        <p class="section-title">Our Talented Team Members</p>
+      </div>
+      <div class="team-members">
+        <div class="card">
+          <div class="card-img"> </div>
+          <img src="assets/imgs/yasir.jpg" alt="" class="profile-img">
+          <h1>yasir Alqaraghuli </h1>
+          <p class="job-title">CEO</p>
+          <p class="about">The founder of Hash-Solutions website.</p>
+          <a href="#" class="member-btn">Contact</a>
+          <!-- <ul class="Socail-media-accounts">
+            <li><a href="#"><i class="fa-brands fa-linkedin linkedin"></i></a></li>
+            <li><a href="#"><i class="fab fa-google-plus-square"></i></a></li>
+          </ul> -->
+        </div>
+        <div class="card">
+          <div class="card-img"> </div>
+          <img src="assets/imgs/Ruwaid.jpg" alt="" class="profile-img">
+          <h1>Ruwaid Sami</h1>
+          <p class="job-title">Web Developer</p>
+          <p class="about">Web Developer at Hash-Solutions.</p>
+
+          <!-- <ul class="Socail-media-accounts">
+            <li><a href="#"><i class="fa-brands fa-linkedin linkedin"></i></a></li>
+            <li><a href="#"><i class="fab fa-google-plus-square"></i></a></li>
+          </ul> -->
+        </div>
+        <div class="card">
+          <div class="card-img"> </div>
+          <img src="assets/imgs/Muayad.jpeg" alt="" class="profile-img">
+          <h1>Muayad El-Haddad</h1>
+          <p class="job-title">Application development</p>
+          <p class="about">Director / Application development at Hash-Solutions.</p>
+
+          <!-- <ul class="Socail-media-accounts">
+            <li><a href="#"><i class="fa-brands fa-linkedin linkedin"></i></a></li>
+            <li><a href="#"><i class="fab fa-google-plus-square"></i></a></li>
+          </ul> -->
+        </div>
+        <div class="card">
+          <div class="card-img"> </div>
+          <img src="assets/imgs/Taghreed.jpg" alt="" class="profile-img">
+          <h1>Taghreed Fazea</h1>
+          <p class="job-title">Ui/Ux Designer </p>
+          <p class="about">Ui/Ux Designer at Hash-Solutions.</p>
+
+          <!-- <ul class="Socail-media-accounts">
+            <li><a href="#"><i class="fa-brands fa-linkedin linkedin"></i></a></li>
+            <li><a href="#"><i class="fab fa-google-plus-square"></i></a></li>
+          </ul> -->
+        </div>
+        <div class="card">
+          <div class="card-img"> </div>
+          <img src="assets/imgs/Alaa Issa.jpeg" alt="" class="profile-img">
+          <h1>Alaa Issa</h1>
+          <p class="job-title">Front-end developer </p>
+          <p class="about">Front-end developer at Hash-Solutions.</p>
+
+          <!-- <ul class="Socail-media-accounts">
+            <li><a href="#"><i class="fa-brands fa-linkedin linkedin"></i></a></li>
+            <li><a href="#"><i class="fab fa-google-plus-square"></i></a></li>
+          </ul> -->
+        </div>
+        <div class="card">
+          <div class="card-img"> </div>
+          <img src="assets/imgs/Ruqaya.jpeg" alt="" class="profile-img">
+          <h1>Ruqaya Qassia</h1>
+          <p class="job-title">Front-end developer </p>
+          <p class="about">Front-end developer at Hash-Solutions.</p>
+
+          <!-- <ul class="Socail-media-accounts">
+            <li><a href="#"><i class="fa-brands fa-linkedin linkedin"></i></a></li>
+            <li><a href="#"><i class="fab fa-google-plus-square"></i></a></li>
+          </ul> -->
+        </div>
+      </div>
+
+    </section>
+
+    <section class="our-customers">
+      <div class="section-intro">
+        <p class="section-sub-title">//TRUSTED BY OVER 40+</p>
+        <p class="section-title">Our Customers</p>
+      </div>
+      <div class="our-customer-container">
+
+        <div class="customer">
+          <img src="assets/imgs/dought-master-logo.png">
+          <div class="customer-content-text">
+            <h3>Dough Master</h3>
+
+            <a href="http://www.doughmaster.ca/">Check out</a>
+          </div>
+
+        </div>
+        <div class="customer">
+          <img src="assets/imgs/dought-master-logo.png">
+          <div class="customer-content-text">
+            <h3>Dough Master</h3>
+
+            <a href="http://www.doughmaster.ca/">Check out</a>
+          </div>
+
+        </div>
+        <div class="customer">
+          <img src="assets/imgs/dought-master-logo.png">
+          <div class="customer-content-text">
+            <h3>Dough Master</h3>
+
+            <a href="http://www.doughmaster.ca/">Check out</a>
+          </div>
+
+        </div>
+        <div class="customer">
+          <img src="assets/imgs/dought-master-logo.png">
+          <div class="customer-content-text">
+            <h3>Dough Master</h3>
+
+            <a href="http://www.doughmaster.ca/">Check out</a>
+          </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="about-us-secion">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam repudiandae, laudantium reprehenderit nam
+            ipsum quia at perferendis quas? In, ut!
+          </p>
+          <ul class="links">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="quick-links-section">
+          <h2>Quick Links</h2>
+          <ul class="sectionLinks">
+            <li>
+              <a href="#"> Home </a>
+            </li>
+            <li>
+              <a href="#"> About </a>
+            </li>
+            <li>
+              <a href="#"> Products </a>
+            </li>
+            <li>
+              <a href="#"> Our Services </a>
+            </li>
+
+            <li>
+              <a href="#"> Contact Us </a>
+            </li>
+          </ul>
+        </div>
+        <div class="Our-services-section">
+          <h2>Our Serives</h2>
+          <ul class="sectionLinks">
+            <li>
+              <a href="#"> SEO Optimization </a>
+            </li>
+            <li>
+              <a href="#"> Web Development </a>
+            </li>
+            <li>
+              <a href="#"> SEA Optimization </a>
+            </li>
+            <li>
+              <a href="#"> Mobile Applications </a>
+            </li>
+            <li>
+              <a href="#"> Power BI </a>
+            </li>
+          </ul>
+        </div>
+        <div class="contact-section">
+          <h2>Contact Us</h2>
+          <ul class="info">
+            <li>
+              <span> <i class="fa-solid fa-phone"></i></span>
+              <p><a href="#">+1 (647) 779-9616</a></p>
+            </li>
+            <li>
+              <span><i class="fa-solid fa-envelope"></i></span>
+              <p>
+                <a href="mailto:services@hashsolutions.ca">services@hashsolutions.ca</a>
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyrightText">
+        <p></p>
+      </div>
+    </footer>
+  </div>
+
+
+
+  <script>
+    swal.fire({
+      html: `
+     <div class="popup_wrapper">
+     <h2>GET 10% OFF</h2>
+     <p>Subscribe to our newsletter & recieve a coupon</p>
+
+       
+        <input type="text" id="Email" class="swal2-input" placeholder="Enter your email here">
+        <div class="buttons-wrapper-popup">
+        <a href="#" class="popup_button cancel-button" id="swal-cancel-button">No thanks</a>
+        <a href="#" class="popup_button" id="swal-close-button">GET it now !</a>
+        </div>
+    </div>
+      `
+      ,
+      showConfirmButton: false,
+      showCancelButton: false,
+
+
+    })
+  </script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

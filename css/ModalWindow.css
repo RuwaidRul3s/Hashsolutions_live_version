@@ -1,0 +1,93 @@
+.swal2-modal {
+    border-radius: 13px;
+}
+
+.popup_wrapper {
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+
+}
+
+
+
+
+
+.popup_wrapper h2 {
+    text-align: center;
+    font-size: 3.7rem;
+}
+
+.popup_wrapper p {
+    text-align: center;
+    font-size: 1rem;
+    position: relative;
+}
+
+.popup_wrapper p::before {
+    content: '';
+    position: absolute;
+    background: whitesmoke;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+}
+
+.popup_wrapper p::after {
+    content: '';
+    position: absolute;
+    background: whitesmoke;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+}
+
+#Email {
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid lightgray;
+    outline: none;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+#Email::placeholder {
+    color: black;
+    opacity: 0.5;
+}
+
+
+.buttons-wrapper-popup {
+    display: flex;
+    width: 100%;
+    gap: 40px;
+    justify-content: center;
+
+}
+
+.popup_button {
+    text-decoration: none;
+    background: #1488cc;
+    color: white;
+    padding: 0.7rem;
+    width: 150px;
+    border-radius: 13px;
+}
+
+.cancel-button {
+    background: white;
+    color: #1d68c2;
+    border: 1px solid #1d68c2;
+}
+
+.swal2-input:focus,
+.swal2-file:focus,
+.swal2-textarea:focus {
+    box-shadow: none;
+}
